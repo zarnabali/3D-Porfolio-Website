@@ -26,20 +26,19 @@ const Contact = () => {
     setLoading(true);
 
     // Replace these with your EmailJS service ID, template ID, and public key
-    const serviceId = 'YOUR_SERVICE_ID';
-    const templateId = 'YOUR_TEMPLATE_ID';
-    const publicKey = 'YOUR_PUBLIC_KEY';
+    const serviceId = 'service_4pxkl1r';
+    const templateId = 'template_5wyafnm';
+    const publicKey = '06Ltc9LHSajLMi6O1';
 
     emailjs
       .send(
         serviceId,
         templateId,
         {
-          from_name: form.name,
-          to_name: 'Your Name', // Replace with your name or your app's name
-          from_email: form.email,
-          to_email: 'zarnabalibhatti@gmail.com', // Replace with your email
+          name: form.name,
+          email: form.email,
           message: form.message,
+          date: new Date().toLocaleDateString(),
         },
         publicKey
       )

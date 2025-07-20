@@ -19,9 +19,17 @@ import {
   flutter,
   sql,
   c_plusplus,
+  rubrixCode,
   java,
-  gynesysIcon
+  gynesysIcon,
+  infiniteEcommerce,
+  astronumerology,
+  steth,
+  aiClothingDetection,
+  football,
+  farmHome
 } from "../assets";
+// import football from "../assets/football.png";
 
 export const navLinks = [
   {
@@ -70,7 +78,6 @@ const technologies = [
     name: "JavaScript",
     icon: javascript
   },
-  ,
   {
     name: "React JS",
     icon: reactjs
@@ -122,7 +129,7 @@ const experiences = [
     company_name: "Gynesys Lab",
     icon: gynesysIcon, // Replace with the actual icon import
     iconBg: "#383E56", // Background color for the icon
-    date: "Sept 2024 - (continued)",
+    date: "Sept 2024 - Dec 2024",
     points: [
       "Developed and maintained responsive web applications using React.js and mobile applications using Flutter.",
       "Collaborated with cross-functional teams, including designers, product managers, and backend developers, to deliver high-quality products.",
@@ -131,36 +138,74 @@ const experiences = [
       "Optimized applications for performance, scalability, and cross-browser compatibility.",
       "Conducted code reviews and provided constructive feedback to ensure code quality and best practices."
     ]
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Rubrix Code",
+    icon: rubrixCode, // Replace with the actual icon import
+    iconBg: "#091720", // Background color for the icon
+    date: "Aug 2024 - Present",
+    points: [
+      
+        "Worked as a Full Stack Developer at Rubrix, collaborating with multiple clients to successfully deliver 7+ full-cycle projects.",
+        "Designed and implemented scalable and maintainable software architectures aligned with industry standards and best practices.",
+        "Ensured adherence to clean code principles, design patterns, and modern development techniques across frontend and backend systems.",
+        "Led and contributed to both client-side and server-side development, ensuring seamless integration and high performance.",
+        "Communicated effectively with stakeholders to translate requirements into technical solutions and maintain project alignment.",
+        "Performed rigorous testing and code reviews to maintain high-quality deliverables and ensure long-term maintainability."
+      
+        ]
   }
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AI Clothing Detection" ,
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Built an AI-powered clothing detection model capable of identifying various clothing types and distinguishing colors with high accuracy. The model supports both live video and static image input, enabling real-time fashion recognition. It enhances retail and fashion tech solutions by automating clothing classification and color analysis for diverse use cases.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient"
       },
       {
-        name: "mongodb",
+        name: "YOLO",
         color: "green-text-gradient"
       },
       {
-        name: "tailwind",
+        name: "computerVision",
         color: "pink-text-gradient"
       }
     ],
-    image: carrent,
-    source_code_link: "https://github.com/"
+    image: aiClothingDetection,
+    source_code_link: "https://github.com/zarnabali/AI-Clothing-Detection-"
   },
   {
-    name: "Job IT",
+    name: "Football Analysis AI Model" ,
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed an AI-based football analysis model that detects players, goalkeepers, referees, and teams in real time. It tracks ball possession, identifies offside situations, and delivers in-game insights from both live video and recorded footage, enhancing analysis for coaches, analysts, and broadcasters.",
     tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient"
+      },
+      {
+        name: "YOLO",
+        color: "green-text-gradient"
+      },
+      {
+        name: "computerVision",
+        color: "pink-text-gradient"
+      }
+    ],
+    image: football, // Temporarily using aiClothingDetection instead of football
+    source_code_link: "https://github.com/zarnabali/Football-Analysis-AI-Model"
+  },
+  {
+    name: "STETH",
+    description:
+      "Got it! Here's the updated version of your medical wear eCommerce store in the same reference length:Built a medical wear eCommerce platform with modules for Admin, Students, and General Users. Features include dynamic pages, discount management, student verification, order tracking and analytics, inventory control, and role-based functionality for smooth and secure operations."
+        ,  tags: [
       {
         name: "react",
         color: "blue-text-gradient"
@@ -170,34 +215,82 @@ const projects = [
         color: "green-text-gradient"
       },
       {
-        name: "scss",
+        name: "cloudinary and mongodb",
         color: "pink-text-gradient"
       }
     ],
-    image: jobit,
-    source_code_link: "https://github.com/"
+    image: steth,
+    source_code_link: "https://github.com/zarnabali/STETH_FULL_STACK"
   },
   {
-    name: "Trip Guide",
+    name: "Astronumerology",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Built a 3D website for Astronumerology, featuring interactive 3D models, animations, and a fully responsive frontend for an engaging and immersive user experience.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient"
+      },
+      {
+        name: "3 JS",
+        color: "green-text-gradient"
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient"
+      }
+    ],
+    image: astronumerology,
+    source_code_link: "https://github.com/zarnabali/Astronumerology"
+  },
+  {
+    name: "Infinite E-Commerce",
+    description:
+      "Developed Infinite, a stylish eCommerce platform with modules for Admin, Men, and Women. Integrated video animations, elegant UI design, dynamic product pages, role-based management, and smooth user experience for seamless browsing and shopping.",
+          tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient"
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient"
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient"
+      }
+    ],
+    image: infiniteEcommerce,
+    source_code_link: "https://github.com/zarnabali/Infinite"
+  },
+  {
+    name: "Farm Home",
+    description:
+      "Built FarmHome, a farm management platform with Super Admin, Admin, Manager, and Assistant modules. Features include animal and breeding management, a marketplace with Stripe payments, role-based access, real-time updates via WebSockets, incident tracking, order management, AI breeding suggestions, AI chatbot, and multilingual support with translation in 5 languages.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient"
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient"
       },
       {
-        name: "css",
+        name: "nodejs",
         color: "pink-text-gradient"
-      }
+      },
+      {
+        name: "webSockets",
+        color: "blue-text-gradient"
+      },
+      
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/"
+    image: farmHome,
+    source_code_link: "https://github.com/zarnabali/FarmHouse"
   }
+
 ];
 
 export { services, technologies, technologies2, experiences, projects };

@@ -31,10 +31,17 @@ import java from "./tech/java.png";
 import solidity from "./tech/solidity.png";
 
 import gynesysIcon from "./company/geynesys.png";
+import infiniteEcommerce from "./ecommerce.png";
+import astronumerology from "./astro.png";
+import steth from "./steth01.png";
+import aiClothingDetection from "./ai_clothing.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import rubrixCode from "./company/rubrix_code.png";
+import football from "./football.png";
+import farmHome from "./farm.png";
 
 export {
   logo,
@@ -70,5 +77,12 @@ export {
   gynesysIcon,
   carrent,
   jobit,
+  farmHome,
   tripguide,
+  infiniteEcommerce,
+  astronumerology,
+  steth,
+  aiClothingDetection,
+  rubrixCode,
+  football
 };
