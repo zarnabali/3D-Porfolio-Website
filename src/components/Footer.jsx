@@ -60,7 +60,7 @@ const Footer = () => {
                   href="mailto:zarnabalibhatti@gmail.com" 
                   className='block text-secondary hover:text-white text-[14px] transition-colors duration-300'
                 >
-                  zarnabali@gmail.com
+                  zarnabalibhatti@gmail.com
                 </a>
                 <a 
                   href="https://www.linkedin.com/in/zarnab-ali-0aa5b6224/" 
